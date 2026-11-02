@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>    // to use macro exit_success
+
+int main()
+{
+    char sName[30];                      //character array
+    
+    printf("Enter your name : \n");
+    scanf("%s",sName);                   //%s used to accept string 
+
+    printf("Welcome %s\n",sName);
+
+    return EXIT_SUCCESS;
+}
